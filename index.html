@@ -79,8 +79,8 @@
       </div>
     </nav>
 
-    <!-- New promotion-->
-    <article class="container mt-3">
+    <!-- New promotion
+    <article class="container alert-container">
       <div class="row d-none d-sm-block">
         <div class="col-12">
           <div class="alert alert-warning">
@@ -92,23 +92,28 @@
       </div>
     </article>
 
-    <!-- /New promotion-->
+     /New promotion-->
 
-    <article class="container mt-3">
+    <div class="container-fluid callout-container">
       <!-- Callout -->
+      <div class="opaque-overlay">&nbsp;</div>
       <div class="row">
         <div class="col-12">
           <section class="callout jumbotron text-center">
-            <h1>The finest whiskeys delivered to your doorstep.</h1>
+            <h1 class="jumbotron-header">
+              The finest whiskeys delivered to your doorstep.
+            </h1>
+            <hr class="block-divider block-divider--orange" />
             <p class="lead">
               Sign up today to start receiving the world's best whiskeys every
-              month. <s class="d-none d-sm-inline">€19.99</s>
+              month.
+              <s class="d-none d-sm-inline">€19.99</s>
               <span class="d-inline d-sm-none"><br /></span>
               <strong><mark>First one is free!</mark></strong>
             </p>
             <p>
               <button
-                class="btn btn-lg btn-success"
+                class="btn btn-lg btn--cta btn--red"
                 data-toggle="modal"
                 data-target="#signUpModal"
               >
@@ -124,10 +129,11 @@
           </section>
         </div>
       </div>
-      <!-- /.callout -->
-      <hr />
+    </div>
+    <!-- /.callout -->
 
-      <!-- Quotes -->
+    <!-- Quotes -->
+    <div class="container quotes-container">
       <section class="quotes">
         <div class="row">
           <div class="col-12 my-5">
@@ -181,9 +187,10 @@
         </div>
       </section>
       <!-- /.quotes -->
-      <hr />
+    </div>
 
-      <!-- Features -->
+    <!-- Features -->
+    <div class="container features-container">
       <section class="features">
         <div class="row">
           <div class="col-12 my-5">
@@ -257,7 +264,7 @@
         </div>
       </section>
       <!-- /.features -->
-    </article>
+    </div>
 
     <div class="modal" tabindex="-1" id="signUpModal">
       <div class="modal-dialog">
