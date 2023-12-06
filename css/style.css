@@ -185,6 +185,15 @@ body {
     color: #f05f40;
 }
 
+.feature .btn:hover,
+.feature .btn:active,
+.feature .btn:focus,
+.feature .btn:active:focus {
+    background-color: rgb(190, 185, 185);
+    border-color: rgb(190, 185, 185);
+    color: #df4929;
+}
+
 .feature {
     text-align: center;
     margin-bottom: 40px;
@@ -194,4 +203,25 @@ body {
     margin-bottom: 20px;
     font-size: 45px;
     line-height: 45px;
+}
+
+/* monthly-favourite */
+.monthly-favourites .btn {
+    background-color: #f05f40;
+    border-color: #f05f40;
+    border-radius: 15px;
+    /* buttons can grow, but not shrink */
+    min-width: 100px;
+    font-weight: bold;
+    margin-top: 10px;
+    color: white;
+}
+
+.monthly-favourites .btn:hover,
+.monthly-favourites .btn:active,
+.monthly-favourites .btn:focus,
+.monthly-favourites .btn:active:focus {
+    background-color: #df4929;
+    border-color: #df4929;
+    color: white;
 }
