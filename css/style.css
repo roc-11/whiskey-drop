@@ -225,3 +225,10 @@ body {
     border-color: #df4929;
     color: white;
 }
+
+/* Footer */
+
+footer a {
+    color: white;
+    z-index: 2;
+}
